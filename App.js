@@ -1,6 +1,8 @@
-let display = document.getElementById('display');
+var display = document.getElementById('display');
+
 
 function press(num) {
+    
 display.value += num;
 }
 

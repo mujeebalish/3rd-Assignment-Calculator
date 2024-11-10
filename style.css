@@ -24,7 +24,8 @@
   }
   
   button:hover {
-    background-color: #f5f5f5;
+    background-color: #fabdbd;
+    color: rgb(237, 248, 244);
   }
   
   #display {
@@ -37,6 +38,9 @@
     border: none;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  #display:hover{
+    
   }
   
   
