@@ -10,14 +10,50 @@
 <body>
     <div class="cotainer">
         <div class="row">
-            <h1 class="text-center text-uppercase fw-bolder fs-1 fst-italicte text-danger lh-5 col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">Calculator</h1>
-            <h1 class="text-center text-uppercase fw-bolder fs-1 fst-italicte text-danger lh-5 col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">Calculator</h1>
-            <h1 class="text-center text-uppercase fw-bolder fs-1 fst-italicte text-danger lh-5 col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">Calculator</h1>
+            <h1 class="text-center text-uppercase fw-bolder fs-1 fst-italicte text-danger col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">Calculator </h1>
         </div>
     </div>
-    <p class="lh-1">Mujeeb Alish</p>
+    <div class="calculator container">
+        <div class="row">
+          <input type="text" id="display" disabled class="col-12">
+        </div>
+        <div class="row">
+          <div class="col-3"><button onclick="press(7)">7</button></div>
+          <div class="col-3"><button onclick="press(8)">8</button></div>
+          <div class="col-3"><button onclick="press(9)">9</button></div>
+          <div class="col-3"><button onclick="press('/')">/</button></div>
+        </div>
+        <div class="row">
+          <div class="col-3"><button onclick="press(4)">4</button></div>
+          <div class="col-3"><button onclick="press(5)">5</button></div>
+          <div class="col-3"><button onclick="press(6)">6</button></div>
+          <div class="col-3"><button onclick="press('*')">*</button></div>
+        </div>
+        <div class="row">
+          <div class="col-3"><button onclick="press(1)">1</button></div>
+          <div class="col-3"><button onclick="press(2)">2</button></div>
+          <div class="col-3"><button onclick="press(3)">3</button></div>
+          <div class="col-3"><button onclick="press('-')">-</button></div>
+        </div>
+        <div class="row">
+          <div class="col-3"><button onclick="press(0)">0</button></div>
+          <div class="col-3"><button onclick="press('.')">.</button></div>
+    <div class="col-3"><button onclick="calculate()">=</button></div>
+    <div class="col-3"><button onclick="press('+')">+</button></div>
+  </div>
+  <div class="row">
+    <div class="col-12"><button onclick="clearDisplay()">C</button></div>
+  </div>
+</div>
+
+      
+           
+           
+    
    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+      
+    </script>
     <script src="App.js"></script>
 </body>
 </html>
