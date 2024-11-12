@@ -14,6 +14,10 @@ display.value = 'Error';
 }
 }
 
-function clearDisplay() {
+function clearAllDisplay() {
 display.value = '';
+}
+
+function clearDisplay() {
+    display.value.splice(-1,1)
 }
